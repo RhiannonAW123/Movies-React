@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+  color: pink;
+}
+h2 {
+  color: turquoise;
+}
+h3 {
+  color: blueviolet;
+}
+h4 {
+  color: cornflowerblue;
+}
+p {
+  color: darkorchid;
+}
+a {
+  color: deeppink;
+}
