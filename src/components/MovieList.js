@@ -1,15 +1,15 @@
 import React from 'react';
 import Movie from './Movie';
 
-const MovieList = () => {
+const MovieList = ({ movies }) => {
+
+    const movieNodes = movies.map(movie => {
+        return <Movie name={movie.name} key={movie.id} url={movie.url}></Movie>
+    });
 
     return (
         <>
-        <p> "Duuuh I am a MovieList"</p>
-        <Movie/>
-        <Movie/> 
-        <Movie/>
-        <Movie/>
+            <ul>{movieNodes}</ul>
         </>
     )    
 }

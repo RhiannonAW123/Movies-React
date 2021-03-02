@@ -1,9 +1,11 @@
 import React from 'react';
 
-const Movie = () => {
+const Movie = ({name, url}) => {
+
     return (
         <>
-        <h1> "I am movie"</h1>
+        <li><a href={url}>{name}</a></li>
+        
         </>
     )
 }
